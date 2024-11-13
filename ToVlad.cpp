@@ -31,8 +31,6 @@ string secondMode(int i)
 
 int main()
 {
-    cout << "Hello World!\n";
-
 	int mode = getMode();
 
 	for (int i = 0; i < INT16_MAX; i++)
@@ -56,5 +54,12 @@ int main()
 		file.open(fileName);
 		file << "合肥哦i委屈你和去海南富婆i去海南皮肤；哦i富农课外班否为白佛欧服为北方购入不过为给我换个配合各位韩国而我国和温哥华陪我刚好我俄国和而我国二位好个屁外观和物品IP规划为脾气IP规划IP把那个看来你公婆卡给你改变你货币规划破格就弄屁股琥珀金给老婆皇宫股票别弄不能够破格浓";
 		file.close();
+
+		if (i % 1000 == 0)
+		{
+			cout << "Was complite about " << 100.0 * i / INT16_MAX << "%!\n";
+		}
 	}
+
+	cout << "Was complite about 100%!\n\nSuccess!\nMade to Vlad" << endl;
 }
